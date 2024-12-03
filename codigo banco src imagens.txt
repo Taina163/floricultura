@@ -1,0 +1,49 @@
+
+insert into categorias values (1, 'Floricultura', 'Produtos destinados ao consumo de flores.');
+insert into categorias values (2, 'Jardinagem', 'Produtos destinados para cuidar de suas plantinhas.');
+insert into categorias values (3, 'Arranjos', 'Produtos destinados como presentes para pessoas especiais.');
+
+
+insert into subcategorias values (1, 'Orquidea', 'Produtos destinados a pessoas que gostam de orquideas.', 1);
+insert into subcategorias values (2, 'Lirios', 'Produtos destinados a pessoas que gostam de lirios.', 1);
+insert into subcategorias values (3, 'Margaridas', 'Produtos destinados a pessoas que gostam de margaridas.', 1);
+
+
+insert into produtos values (1, 'Orquídea Phalaenopsis Rosa',169.90, 'Orquídeas são sempre excelentes opções de presente. Esta é uma orquídea Phalaenopsis rosa, de uma haste, plantada e embrulhada de maneira especial para presentear as pessoas mais queridas com muita beleza e carinho.', 'src/img/Floricultura/Orquidea/orquidea.jpg', 1 );
+
+insert into produtos values (2, 'Orquídea Phalaenopsis para Presente', 169.80 , 'A Orquídea Phalaenopsis é uma opção clássica e sofisticada para presentear quem você ama. Com cores vibrantes e um toque delicado, é uma escolha ideal para qualquer ocasião.', 'src/img/Floricultura/Orquidea/orquidea2.jpg',1 );
+
+insert into produtos values (3, 'Orquídea Phalaenopsis para Presente', 169.90, 'A Orquídea Phalaenopsis é perfeita para quem deseja dar um presente cheio de charme e elegância. Ela encanta com suas flores duradouras e sua beleza única.','src/img/Floricultura/Orquidea/orquidea3.jpg', 1);
+
+insert into produtos values (4, 'Orquídea Phalaenopsis Bicolor', 180.90 ,  'Esta Orquídea Phalaenopsis bicolor traz uma combinação de cores impressionante, perfeita para quem busca algo distinto e colorido. Ideal para decorar ambientes ou presentear.','src/img/Floricultura/Orquidea/orquidea4.jpg',1 );
+
+insert into produtos values (5, 'Orquídea Phalaenopsis Pink e Kit', 309.90, 'Esta orquídea Phalaenopsis Pink vem acompanhada de um kit de produtos Natura Tododia, com fragrâncias de Ameixa e Flor Baunilha, tornando o presente ainda mais completo e encantador.','src/img/Floricultura/Orquidea/orquidea5.jpg' ,1  );
+
+
+insert into produtos values (5, 'Orquídea Phalaenopsis Pink e Kit', 309.90, 'Esta orquídea Phalaenopsis Pink vem acompanhada de um kit de produtos Natura Tododia, com fragrâncias de Ameixa e Flor Baunilha, tornando o presente ainda mais completo e encantador.','src/img/Floricultura/Orquidea/orquidea5.jpg' ,1  );
+
+
+
+insert into produtos values (6,'Lírios e Flores do Campo Brancas em Vaso', 149.90, 'Um elegante vaso com lírios e flores do campo brancas, perfeito para qualquer ocasião. A combinação delicada traz frescor e sofisticação ao ambiente.', 'src/img/Floricultura/Lirios/lirios.jpg', 2);
+
+insert into produtos values (7,'Cesta de Lírios, Gerberas Brancas e Chocolate',199.90, 'Uma cesta charmosa com lírios e gerberas brancas, acompanhada de chocolates finos, ideal para presentear alguém especial com muito carinho.', 'src/img/Floricultura/Lirios/lirios2.jpg', 2);
+
+insert into produtos values (8,'Cesta com Lírios e Gérberas Brancas',150.90, 'Cesta delicada com uma combinação de lírios e gerberas brancas, trazendo frescor e elegância em um presente perfeito para qualquer ocasião.', 'src/img/Floricultura/Lirios/lirios3.jpg', 2);
+
+insert into produtos values (9,'Buquê de Lírios e Rosas Vermelhas',169.90, 'Um buquê luxuoso de lírios e rosas vermelhas, com uma fragrância envolvente, ideal para momentos românticos e especiais.','src/img/Floricultura/Lirios/lirios4.jpg', 2);
+
+insert into produtos values (10,'Lírios e Chocolate',189.90, 'Uma combinação encantadora de lírios e chocolates finos, o presente perfeito para quem busca uma maneira doce e elegante de demonstrar carinho.','src/img/Floricultura/Lirios/lirios5.jpg', 2);
+
+
+
+
+insert into produtos values (11, 'Margaridas Plantadas',  119.90, 'Margaridas plantadas em vaso especial, perfeitas para trazer alegria e cor para qualquer ambiente. São ideais para decorar seu lar ou presentear alguém querido.','src/img/Floricultura/Margaridas/margarida1.jpg',3 );
+
+insert into produtos values (12, 'Ramalhete de Margaridas Coloridas', 129.90,  'Um belo ramalhete de margaridas coloridas, com flores vibrantes que transmitem frescor e energia. Ideal para presentear em datas especiais ou para embelezar o seu espaço.','src/img/Floricultura/Margaridas/margarida2.jpg', 3);
+
+insert into produtos values (13, 'Cesta com Rosas e Margaridas Amarelas e Brancas',  149.90, 'Cesta charmosa com rosas e margaridas amarelas e brancas, uma combinação elegante e perfumada para presentear ou decorar ambientes. A mistura de cores traz suavidade e alegria.', 'src/img/Floricultura/Margaridas/margarida3.jpg', 3 );
+
+insert into produtos values (14, 'Cesta de Margaridas com Duas Cores', 129.90, 'Cesta com margaridas de duas cores, oferecendo uma aparência vibrante e cheia de vida. Ideal para quem procura um presente delicado e sofisticado.','src/img/Floricultura/Margaridas/margarida4.jpg', 3 );
+
+insert into produtos values (15, 'Arranjo de Margaridas e Rosas Amarelas', 129.90, 'Arranjo delicado de margaridas e rosas amarelas, perfeito para ocasiões especiais. Uma combinação de flores frescas que transmite simpatia e elegância.','src/img/Floricultura/Margaridas/margarida5.jpg',  3  ); 
+
